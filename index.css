@@ -1,0 +1,19 @@
+body {
+	margin: 50pt;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #D7D7D7;
+	text-allign: center;
+}
+
+p {
+	color: #FFFF33;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+#image {
+	text-align: center;
+}
