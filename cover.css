@@ -12,11 +12,19 @@ body {
   magenta
   brush teal
   og teal
+  navy
+  orange
+  dark gray
+  lighter gray
   */
   /*background-color: #7D1935;*/
   /*background-color: #74afad;*/
   /*background-color: #129272;*/
-  background-color: #0b436e;
+  background-color: 16a085;
+  /*background-color: #0b436e;*/
+  /*background-color: #FFBA00;*/
+  /*background-color: #262626;*/
+  /*background-color: #676767;*/
   color:#f8f8f8;
   font-size: 26px;
   font-family: 'Lato', Helvetica, sans-serif;
@@ -45,7 +53,7 @@ h2 {
 
 #play {
   position: absolute;
-  bottom: 20px;
+  bottom: 35px;
 }
 
 #subtitle {
@@ -60,5 +68,5 @@ h2 {
 /*  display: table-cell;
   vertical-align: middle;*/
   position: absolute;
-  top:30%;
+  top:37%;
 }
