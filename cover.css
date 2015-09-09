@@ -37,6 +37,7 @@ h1 {
   font-size: 70px;
   font-weight: 900;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 h2 {
@@ -45,9 +46,6 @@ h2 {
   margin: 0px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-}
-
-.row {
   text-align: center;
 }
 
@@ -56,17 +54,11 @@ h2 {
   bottom: 35px;
 }
 
-#subtitle {
-
-}
-
 #work {
   margin-top: 20px;
 }
 
 .vcenter {
-/*  display: table-cell;
-  vertical-align: middle;*/
   position: absolute;
   top:37%;
 }
