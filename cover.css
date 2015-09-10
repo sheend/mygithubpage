@@ -63,7 +63,7 @@ h2 {
   top:37%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {s
   h1 {
     font-size: 48px;
   }
