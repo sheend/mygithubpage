@@ -1,10 +1,6 @@
-a, a:hover {
+a, a:hover, a:focus {
   text-decoration: none;
   color:#ffffff;
-}
-
-a:focus {
-  outline: medium none;
 }
 
 body {
@@ -32,6 +28,10 @@ body {
   opacity: 1;
 }
 
+.btn {
+  padding: 3px;
+}
+
 h1 {
   opacity: 1;
   font-size: 70px;
@@ -49,9 +49,21 @@ h2 {
   text-align: center;
 }
 
+h1:hover {
+  color: #d6dbe0;
+}
+
+h2:hover {
+  color: #535f6b;
+}
+
 #play {
   position: absolute;
   bottom: 35px;
+}
+
+.social-buttons {
+  margin-top: 20px;
 }
 
 #work {
@@ -60,14 +72,23 @@ h2 {
 
 .vcenter {
   position: absolute;
-  top:37%;
+  top:33%;
 }
 
-@media only screen and (max-width: 700px) {s
+@media screen and (max-width: 700px) {
   h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
