@@ -719,6 +719,19 @@ textarea.form-control {
 		letter-spacing: 3px;
 	}
 
+	.start {
+		font-size: 16px;
+	}
+
+	.me-image {
+		height: 200px;
+		width: 200px;
+	}
+
+	.navbar-custom .navbar-brand {
+		font-size: 17px;
+	}
+
 }
 
 
