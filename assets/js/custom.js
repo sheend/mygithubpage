@@ -1,5 +1,14 @@
 (function($){
 
+	//alert("hello");
+	//var images = ['adobe.jpg', 'airbnb.jpg', 'albs.jpg', 'deck.jpg', 'goldengatepark.jpg', 'marshmallows.jpg', 'selfie.jpg', 'selfie2.jpg'];
+	var images = ['marshmallows.jpg', 'selfie2.jpg', 'albs.jpg', 'deck.jpg', 'selfie.jpg', 'marshmallows.jpg', 'selfie.jpg', 'selfie2.jpg'];
+	
+	var img = images[Math.floor(Math.random() * images.length)];
+	console.log(img);
+	//console.log(document.getElementById('home'));
+	document.getElementById('home').style.backgroundImage = "url(\"assets/images/background/" + img + "\")";
+
 	/* ---------------------------------------------- /*
 	 * Preloader
 	/* ---------------------------------------------- */
